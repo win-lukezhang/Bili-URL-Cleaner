@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bili.URL.Cleaner
 // @namespace    Bili-URL-Cleaner
-// @version      1.0
+// @version      1.1
 // @description  删除哔哩哔哩的URL追踪参数
 // @author       Luke Zhang
 // @icon         https://www.bilibili.com/favicon.ico
@@ -24,7 +24,8 @@
         TRACKING_PARAMS: [
             'buvid', 'mid', 'vd_source', 'spm_id_from', 'is_story_h5',
             'p', 'plat_id', 'share_from', 'share_medium', 'share_plat',
-            'share_source', 'share_tag', 'timestamp', 'unique_k', 'up_id'
+            'share_source', 'share_tag', 'timestamp', 'unique_k', 'up_id',
+            'share_session_id', 'from_spmid', '-Arouter', 'spmid', 'ts',
         ],
         ALLOWED_PARAMS: ['t', 'page', 'aid', 'bvid', 'cid', 'ep_id']
     };
