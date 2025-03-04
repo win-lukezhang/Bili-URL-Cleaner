@@ -25,7 +25,7 @@
             'buvid', 'mid', 'vd_source', 'spm_id_from', 'is_story_h5',
             'p', 'plat_id', 'share_from', 'share_medium', 'share_plat',
             'share_source', 'share_tag', 'timestamp', 'unique_k', 'up_id',
-            'share_session_id', 'from_spmid', '-Arouter', 'spmid', 'ts','live_from'
+            'share_session_id', 'from_spmid', '-Arouter', 'spmid', 'ts', 'live_from', 'vt'
         ],
         ALLOWED_PARAMS: ['t', 'page', 'aid', 'bvid', 'cid', 'ep_id']
     };
